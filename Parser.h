@@ -7,7 +7,9 @@
 #include <functional>
 #include <utility>
 #include <unordered_map>
+#include <memory>
 
+#define UNIT_SEPARATOR 31
 struct TapeElement;
 struct Rule;
 struct State;
